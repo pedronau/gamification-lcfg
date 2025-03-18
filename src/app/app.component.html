@@ -1,7 +1,7 @@
 @if (username === '') {
   <app-user-name (userName)="this.username = $event"></app-user-name>
 } @else {
-  <app-preguntas></app-preguntas>
+  <app-preguntas [nombre]="username"></app-preguntas>
 }
 
 <router-outlet />

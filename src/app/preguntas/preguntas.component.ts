@@ -8,6 +8,8 @@ import { Component, EventEmitter, Input, Output } from '@angular/core';
 })
 export class PreguntasComponent {
 
+  @Input() nombre?: string;
+
   numeroPregunta: number = 0;
 
   siguientePregunta() {
