@@ -3,7 +3,7 @@
     <h3>Gamification La Comarca</h3>
     <br>
     <label for="username">Introduce tu usuario</label>
-    <input type="text" id="username" [(ngModel)]="usuario" [ngModelOptions]="{standalone: true}">
+    <input type="text" id="username" [(ngModel)]="usuario" [ngModelOptions]="{standalone: true}" (keyup.enter)="onSubmit()">
     <br>
     <button (click)="onSubmit()">Comenzar</button>
 </div>
