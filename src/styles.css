@@ -1,7 +1,11 @@
+#autooo {
+  z-index: 200;
+}
+
 body{
     background: #de3e7f;
+    z-index: auto;
   }
-  
   
   .circle{
     position: absolute;
@@ -9,6 +13,7 @@ body{
     background: white;
     animation: ripple 15s infinite;
     box-shadow: 0px 0px 1px 0px #508fb9;
+    z-index: auto;
   }
   
   .small{
@@ -16,6 +21,7 @@ body{
     height: 200px;
     left: -100px;
     bottom: -100px;
+    z-index: auto;
   }
   
   .medium{
@@ -23,6 +29,7 @@ body{
     height: 400px;
     left: -200px;
     bottom: -200px;
+    z-index: auto;
   }
   
   .large{
@@ -30,6 +37,7 @@ body{
     height: 600px;
     left: -300px;
     bottom: -300px;
+    z-index: auto;
   }
   
   .xlarge{
@@ -37,6 +45,7 @@ body{
     height: 800px;
     left: -400px;
     bottom: -400px;
+    z-index: auto;
   }
   
   .xxlarge{
@@ -44,25 +53,31 @@ body{
     height: 1000px;
     left: -500px;
     bottom: -500px;
+    z-index: auto;
   }
   
   .shade1{
     opacity: 0.2;
+    z-index: auto;
   }
   .shade2{
     opacity: 0.5;
+    z-index: auto;
   }
   
   .shade3{
     opacity: 0.7;
+    z-index: auto;
   }
   
   .shade4{
     opacity: 0.8;
+    z-index: auto;
   }
   
   .shade5{
     opacity: 0.9;
+    z-index: auto;
   }
   
   @keyframes ripple{

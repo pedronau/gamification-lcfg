@@ -1,0 +1,22 @@
+<div>
+    @if (numeroPregunta === 0) {
+        <h3>¿Qué se dice al entrar?</h3>
+        <button>Buenos días</button>
+        <button>Hola</button>
+        <button (click)="siguientePregunta()">Manuuu</button>
+    } @if (numeroPregunta === 1) {
+        <h3>¿Qué vende la comarca?</h3>
+        <button>Aceite</button>
+        <button (click)="siguientePregunta()">Carne</button>
+        <button>Retrovisores</button>
+    } @if (numeroPregunta === 2) {
+        <h3>¿Cuánto vale el café?</h3>
+        <button>1€</button>
+        <button>Opel Corsa</button>
+        <button (click)="siguientePregunta()">Gratis</button>
+    } @if (numeroPregunta === 3) {
+        <p>Tu puntuación es 3.</p>
+        <br>
+        <p>¡Gracias por jugar!</p>
+    }
+</div>

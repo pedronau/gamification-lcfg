@@ -1,0 +1,17 @@
+div {
+    width: 20rem;
+    border-width: thin;
+    border-color: black;
+    border-style: solid;
+    display: grid;
+    margin: auto;
+    padding: 2rem;
+    margin-top: 5rem;
+    background-color: white;
+    border-radius: 5%;
+}
+
+button {
+    width: 6rem;
+    margin: auto;
+}
