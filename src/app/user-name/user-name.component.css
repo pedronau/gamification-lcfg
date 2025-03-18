@@ -1,0 +1,20 @@
+div {
+    width: 15rem;
+    border-width: thin;
+    border-color: black;
+    border-style: solid;
+    display: grid;
+    margin: auto;
+    padding: 2rem;
+    margin-top: 5rem;
+}
+
+button {
+    width: 6rem;
+    margin: auto;
+}
+
+img {
+    width: 6rem;
+    margin: auto;
+}
